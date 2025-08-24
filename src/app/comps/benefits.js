@@ -64,7 +64,7 @@ const Benefits = () => {
                             To fundament zdrowia, komfortu i pewności siebie
                         </h3>
                         <p className="text-gray-600 text-lg leading-relaxed">
-                            W naszym salonie profilaktyki w Ostrołęce stawiamy na kompleksowe podejście. Mocne i zdrowe zęby to podstawa zdrowia całego organizmu. Specjalistyczne zabiegi, takie jak skaling, piaskowanie zębów oraz fluoryzacja, skutecznie usunąją kamień nazębny i osady, chroniąc przed próchnicą. Regularna profilaktyka stomatologiczna zapewnia zdrowe dziąsła, świeży oddech i pozwala uniknąć w przyszłości skomplikowanego leczenia.
+                            W moim gabinecie profilaktyki w Ostrołęce stawiamy na kompleksowe podejście. Mocne i zdrowe zęby to podstawa zdrowia całego organizmu. Specjalistyczne zabiegi, takie jak skaling, piaskowanie zębów oraz fluoryzacja, skutecznie usunąją kamień nazębny i osady, chroniąc przed próchnicą. Regularna profilaktyka stomatologiczna zapewnia zdrowe dziąsła, świeży oddech i pozwala uniknąć w przyszłości skomplikowanego leczenia.
                         </p>
                     </div>
 

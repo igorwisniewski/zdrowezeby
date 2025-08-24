@@ -81,7 +81,7 @@ const Stats = () => {
             <div className="container mx-auto max-w-7xl px-6 lg:px-8 text-center">
                 <h2 className="text-4xl font-bold text-gray-900 mb-10">
                     Niech liczby same przemówią
-                    <hr className="text-yellow-500 bg-yellow-500 m-auto w-[10%] text-xxl h-1 rounded-full mt-2"/>
+                    <hr className="text-purple-500 bg-purple-500 m-auto w-[10%] text-xxl h-1 rounded-full mt-2"/>
                 </h2>
 
                 {/* Zmieniamy grida, aby był bardziej responsywny na mniejszych ekranach */}

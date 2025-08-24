@@ -21,3 +21,49 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+body {
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+  overflow-y: scroll; /* potrzebne żeby wciąż działało przewijanie */
+  position: relative;
+}::-webkit-scrollbar {
+   display: none;
+ }
+
+/* Ukrywa scrollbar — Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Wymusza overflow, ale bez widocznego scrolla */
+body {
+  overflow-y: scroll;
+}
+
+/* Gradient po prawej krawędzi */
+@keyframes flowGradient {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+
+.scroll-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 6px;
+  background: linear-gradient(to bottom, #350a39, #791782, #350a39);
+  background-size: 100% 300%;
+  animation: flowGradient 10s linear infinite;
+  z-index: 50;
+  pointer-events: none;
+  transition: height 0.2s ease-out;
+}
