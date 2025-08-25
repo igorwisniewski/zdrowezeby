@@ -30,7 +30,7 @@ const FoundationOrigin = () => {
                     <div className="origin-image">
                         <Image
                             src="/images/fundacjaSection2-min.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
-                            alt="Agnieszka Maj z pacjentką"
+                            alt="Agnieszka Majk z pacjentką"
                             width={600}
                             height={600}
                             className="rounded-2xl shadow-xl"
@@ -45,7 +45,7 @@ const FoundationOrigin = () => {
                         </p>
                         <blockquote className="mt-6 border-l-4 border-purple-500 pl-6 italic text-gray-700">
                             <p>&#34;Założyłam Fundację, bo wiem, że profilaktyka i wczesna edukacja mają moc, by odmienić czyjeś życie. By podnieść, ale też przywracać poczucie wartości, godności i wiary we własne siły.&#34;</p>
-                            <footer className="mt-4 font-semibold not-italic text-gray-900">~ Agnieszka Maj</footer>
+                            <footer className="mt-4 font-semibold not-italic text-gray-900">~ Agnieszka Majk</footer>
                         </blockquote>
                     </div>
                 </div>

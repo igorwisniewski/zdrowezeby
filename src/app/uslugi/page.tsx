@@ -9,40 +9,105 @@ import ScrollProgressBar from "@/app/comps/ScrollBar";
 
 const servicesData = [
     {
-        title: "Wybielanie zębów lampą beyond",
-        description: "Marzysz o lśniąco białym uśmiechu, który doda Ci pewności siebie? Nasza odpowiedź to profesjonalne wybielanie zębów przy użyciu zaawansowanej lampy Beyond...",
+        title: "Higienizacja kompleksowa",
+        description: "Zabieg profilaktyczny (scaling + piaskowanie + polerowanie + fluoryzacja), który usuwa kamień, osady i przebarwienia, wygładza powierzchnie zębów i zabezpiecza szkliwo fluoryzacją.",
         features: [
-            "Spektakularny efekt już po jednej wizycie.",
-            "Bezpieczeństwo i komfort pod okiem specjalisty.",
-            "Długotrwałe rezultaty, którymi będziesz cieszyć się przez lata."
+            "Usunięcie kamienia, osadów i przebarwień.",
+            "Wygładzenie powierzchni zębów.",
+            "Zabezpieczenie szkliwa fluoryzacją."
         ],
-        price: "od 1100zł",
-        imageSrc: "/images/wybielanie-min.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
-    },
-    {
-        title: "Higienizacja",
-        description: "Marzysz o uczuciu idealnej czystości i zdrowym uśmiechu każdego dnia? Higienizacja to klucz do jego osiągnięcia! Zabieg jest fundamentem zdrowia i piękna Twoich zębów...",
-        features: [
-            "Natychmiastowy efekt lśniącej gładkości i czystości.",
-            "Bezpieczeństwo i komfort pod okiem specjalisty.",
-            "Długotrwałą ochrona przed próchnicą i chorobami dziąseł."
-        ],
-        price: "od 350zł",
+        price: "350 zł",
         imageSrc: "/images/higienizacja-min.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
     },
     {
-        title: "Lakowanie zębów",
-        description: "Chcesz maksymalnie zabezpieczyć zęby swoje lub swojego dziecka przed próchnicą? Odkryj moc lakowania, czyli najskuteczniejszej metody ochrony bruzd w zębach bocznych...",
+        title: "Wybielanie regeneracyjne PrevDent",
+        description: "Nowoczesny system wybielania, który jednocześnie rozjaśnia zęby i regeneruje szkliwo dzięki nanohydroksyapatytowi. Idealny także dla osób z nadwrażliwością.",
         features: [
-            "Skuteczna bariera ochronna dla bakterii i cukrów.",
-            "Bezpieczeństwo i komfort pod okiem specjalisty.",
-            "Ochrona miejsc, których nie jest w stanie doczyścić szczoteczka."
+            "Jednoczesne rozjaśnianie i regeneracja szkliwa.",
+            "Zawiera nanohydroksyapatyt.",
+            "Bezpieczne dla osób z nadwrażliwością."
         ],
-        price: "od 100zł",
+        price: "1 400 zł",
+        imageSrc: "/images/prevdent-min.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
+    },
+    {
+        title: "Wybielanie BEYOND",
+        description: "Profesjonalne wybielanie lampą BEYOND – szybki i trwały efekt rozjaśnienia nawet o kilka odcieni.",
+        features: [
+            "Profesjonalne wybielanie z użyciem lampy.",
+            "Szybki i trwały efekt.",
+            "Rozjaśnienie uśmiechu o kilka odcieni."
+        ],
+        price: "od 900 zł",
+        imageSrc: "/images/wybielanie-min.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
+    },
+    {
+        title: "Wybielanie BLANK ONE (bankietowe)",
+        description: "Ekspresowe wybielanie wykonywane często zaraz po higienizacji – dla natychmiastowego efektu bieli i blasku.",
+        features: [
+            "CLICK – szybkie wybielanie w kilkanaście minut.",
+            "TOUCH – delikatne odświeżenie koloru.",
+            "Idealne przed ważnym wydarzeniem."
+        ],
+        price: "od 350 zł",
+        imageSrc: "/images/blancone.webp" // <<< ZMIEŃ ŚCIEŻKĘ
+    },
+    {
+        title: "ICON – leczenie białych plam",
+        description: "Innowacyjna metoda usuwania białych przebarwień bez borowania. ICON wzmacnia szkliwo i redukuje nadwrażliwość.",
+        features: [
+            "Usuwanie białych przebarwień bez borowania.",
+            "Wzmocnienie struktury szkliwa.",
+            "Redukcja nadwrażliwości."
+        ],
+        price: "1-2 zęby: 350 zł | 6 zębów: 1 200 zł",
+        imageSrc: "/images/icon.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
+    },
+    {
+        title: "Lakowanie zębów",
+        description: "Profilaktyka próchnicy u dzieci. Lak szczelinowy zabezpiecza powierzchnię zęba przed bakteriami i osadem.",
+        features: [
+            "Skuteczna profilaktyka próchnicy u dzieci.",
+            "Ochrona powierzchni zęba przed bakteriami.",
+            "Bezbolesny i szybki zabieg."
+        ],
+        price: "1 ząb: 150 zł | od 3 zębów: 100 zł/ząb",
         imageSrc: "/images/lakowanie-min.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
+    },
+    {
+        title: "Przegląd profilaktyczny",
+        description: "Ocena stanu jamy ustnej – wczesne wykrycie zmian próchnicowych i chorób dziąseł.",
+        features: [
+            "Dokładna ocena stanu uzębienia i dziąseł.",
+            "Wczesne wykrywanie próchnicy.",
+            "Plan dalszego postępowania."
+        ],
+        price: "100 zł",
+        imageSrc: "/images/check.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
+    },
+    {
+        title: "Zniesienie nadwrażliwości",
+        description: "Zabieg wzmacniający szkliwo i eliminujący ból przy zimnych, gorących i słodkich bodźcach.",
+        features: [
+            "Wzmocnienie i remineralizacja szkliwa.",
+            "Eliminacja bólu i dyskomfortu.",
+            "Szybka ulga i długotrwała ochrona."
+        ],
+        price: "200 zł",
+        imageSrc: "/images/hyper.webp" // <<< ZMIEŃ ŚCIEŻKĘ
+    },
+    {
+        title: "Wizyta adaptacyjna dla dzieci",
+        description: "Pierwsza, przyjazna wizyta w formie zabawy – dziecko poznaje gabinet i sprzęt bez stresu.",
+        features: [
+            "Wizyta w formie przyjaznej zabawy.",
+            "Zapoznanie dziecka z gabinetem i personelem.",
+            "Budowanie pozytywnych skojarzeń ze stomatologią."
+        ],
+        price: "100 zł",
+        imageSrc: "/images/kids-min.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
     }
 ];
-
 export default function ServicesPage() {
     return (
         <main className="bg-white">

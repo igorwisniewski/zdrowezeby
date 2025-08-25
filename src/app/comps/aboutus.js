@@ -39,7 +39,7 @@ const AboutUs = () => {
                             Kim jesteśmy?
                         </h2>
                         <p className="text-gray-600 text-lg leading-relaxed">
-                            Nazywam się Agnieszka Maj, jestem właścicielką gabinetu i kobietą, która kocha to, co robi.
+                            Nazywam się Agnieszka Majk, jestem właścicielką gabinetu i kobietą, która kocha to, co robi.
                             Od lat pomagam pacjentom odzyskać zdrowy uśmiech i wiarę w siebie. Pracuję bezboleśnie, bez
                             pośpiechu, bez ocen, w atmosferze spokoju.
                         </p>

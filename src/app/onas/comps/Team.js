@@ -12,7 +12,7 @@ gsap.registerPlugin(ScrollTrigger);
 const teamData = [
     {
         imageSrc: "/images/whoIam-min.jpg", // <<< PODMIEŃ ŚCIEŻKĘ DO ZDJĘCIA
-        name: "Agnieszka Maj",
+        name: "Agnieszka Majk",
         role: "Higienistka Stomatologiczna"
     },
 ];

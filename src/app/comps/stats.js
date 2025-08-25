@@ -87,7 +87,7 @@ const Stats = () => {
                 {/* Zmieniamy grida, aby był bardziej responsywny na mniejszych ekranach */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     <StatCard icon={<ClockIcon />} value={15} unit="+" text="Lat doświadczenia" />
-                    <StatCard icon={<UserGroupIcon />} value={300} unit="+" text="Wykonanych zabiegów" />
+                    <StatCard icon={<UserGroupIcon />} value={3000} unit="+" text="Wykonanych zabiegów" />
                     <StatCard icon={<StarIcon />} value={5} unit="/5" text="Ocena pacjentów" />
                 </div>
             </div>

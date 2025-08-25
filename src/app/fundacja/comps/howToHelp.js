@@ -47,7 +47,7 @@ const HowToHelp = () => {
                             className="portrait-image w-full h-auto rounded-2xl border-2 border-purple-200 shadow-xl"
                         />
                         <div className="portrait-text mt-6">
-                            <h3 className="text-2xl font-bold text-gray-900">Agnieszka Maj</h3>
+                            <h3 className="text-2xl font-bold text-gray-900">Agnieszka Majk</h3>
                             <p className="text-purple-600 font-semibold">Nie tylko higienistka. Kobieta z misją.</p>
                         </div>
                     </div>
