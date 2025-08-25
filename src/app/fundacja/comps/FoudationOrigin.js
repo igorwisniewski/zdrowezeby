@@ -24,7 +24,7 @@ const FoundationOrigin = () => {
     }, { scope: container });
 
     return (
-        <section ref={container} className="bg-white py-24 sm:py-32 overflow-hidden">
+        <section ref={container} className="bg-white py-24 sm:py-32 overflow-hidden" id="next">
             <div className="container mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="grid md:grid-cols-2 gap-16 items-center">
                     <div className="origin-image">

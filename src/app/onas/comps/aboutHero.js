@@ -3,6 +3,7 @@
 import { useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
+import Link from "next/link";
 
 const AboutHero = () => {
     const container = useRef(null);
@@ -37,12 +38,12 @@ const AboutHero = () => {
                     O nas, czyli o tym, jak troska i wiedza budują zdrowie w naszym gabinecie w Ostrołęce.
                 </p>
                 <div className="hero-buttons mt-8 flex justify-center gap-4">
-                    <button className="bg-purple-800 text-gray-50 font-bold py-3 px-8 rounded-full hover:bg-gray-50 hover:text-purple-800 transition-colors">
+                    <Link href="/kontakt#telefon" className="bg-purple-800 text-gray-50 font-bold py-3 px-8 rounded-full hover:bg-gray-50 hover:text-purple-800 transition-colors">
                         Zadzwoń
-                    </button>
-                        <button className="bg-transparent border-2 border-purple-800 text-gray-50 px-6 py-3 rounded-full font-semibold hover:bg-purple-800 hover:text-white transition-colors">
+                    </Link>
+                        <Link href="/onas#next" className="bg-transparent border-2 border-purple-800 text-gray-50 px-6 py-3 rounded-full font-semibold hover:bg-purple-800 hover:text-white transition-colors">
                             Czytaj dalej
-                    </button>
+                    </Link>
                 </div>
             </div>
         </section>

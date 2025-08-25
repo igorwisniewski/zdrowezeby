@@ -5,6 +5,7 @@ import { useRef } from 'react';
 import Image from 'next/image';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
+import Link from "next/link";
 
 const Hero = () => {
     const container = useRef(null);
@@ -44,12 +45,12 @@ const Hero = () => {
                             Zadbaj o swój uśmiech bez barier. Sprawdź naszą ofertę.
                         </p>
                         <div className="hero-buttons flex justify-center md:justify-start space-x-4">
-                            <button className="bg-purple-800 text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-purple-800 hover:border-purple-800 hover:border-2 transition-colors">
+                            <Link href="/kontakt#telefon" className="bg-purple-800 text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-purple-800 hover:border-purple-800 hover:border-2 transition-colors">
                                 Zadzwoń
-                            </button>
-                            <button className="bg-transparent border-2 border-purple-800 text-purple-800 px-6 py-3 rounded-full font-semibold hover:bg-purple-800 hover:text-white transition-colors">
+                            </Link>
+                            <Link href="/onas" className="bg-transparent border-2 border-purple-800 text-purple-800 px-6 py-3 rounded-full font-semibold hover:bg-purple-800 hover:text-white transition-colors">
                                 O nas
-                            </button>
+                            </Link>
                         </div>
                     </div>
 

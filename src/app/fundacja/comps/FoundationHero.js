@@ -4,6 +4,7 @@
     import Image from 'next/image';
     import { useGSAP } from '@gsap/react';
     import gsap from 'gsap';
+    import Link from "next/link";
 
     const FoundationHero = () => {
         const container = useRef(null);
@@ -26,9 +27,9 @@
                                 Poprzez edukację i realne działania, pomagamy budować zdrowe nawyki i pewność siebie. Dołącz do serca naszej misji.
                             </p>
                             <div className="mt-10">
-                                <button className="bg-purple-800 text-gray-50 border-2 border-purple-800 font-bold py-3 px-8 rounded-full hover:bg-gray-50 hover:text-purple-800 transition-colors">
+                                <Link href="/fundacja#next" className="bg-purple-800 text-gray-50 border-2 border-purple-800 font-bold py-3 px-8 rounded-full hover:bg-gray-50 hover:text-purple-800 transition-colors">
                                     Dowiedz się więcej
-                                </button>
+                                </Link>
                             </div>
                         </div>
                         <div className="hero-image">

@@ -6,6 +6,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { SparklesIcon, ShieldCheckIcon, PaintBrushIcon } from '@heroicons/react/24/outline';
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -60,9 +61,9 @@ const ServiceCard = ({ icon, title, price, description }) => {
             <h3 className="text-xl font-bold text-gray-900 mb-2">{title}</h3>
             <p className="text-4xl font-bold text-purple-800 mb-4">{price}</p>
             <p className="text-gray-600 text-sm leading-relaxed flex-grow">{description}</p>
-            <button className="mt-6 bg-purple-800 text-gray-50 font-semibold px-5 py-2 rounded-full hover:bg-gray-50 hover:text-purple-800 transition-colors">
+            <Link href="uslugi" className="mt-6 bg-purple-800 text-gray-50 font-semibold px-5 py-2 rounded-full hover:bg-gray-50 hover:text-purple-800 transition-colors">
                 Dowiedz się więcej
-            </button>
+            </Link>
         </div>
     );
 };

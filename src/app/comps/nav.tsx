@@ -31,7 +31,7 @@ export default function NavDefault() {
                     </ul>
 
                     <Link
-                        href="/kontakt"
+                        href="/kontakt#telefon"
                         className="hidden md:inline-block bg-purple-900 text-gray-100 text-sm font-bold px-5 py-2 rounded-full shadow hover:bg-gray-100 hover:text-purple-900 transition"
                     >
                         Zadzwoń teraz

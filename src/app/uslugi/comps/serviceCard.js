@@ -6,6 +6,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { PlusIcon } from '@heroicons/react/24/solid';
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -64,9 +65,9 @@ const ServiceCard = ({ service }) => {
                     <p className="text-4xl font-bold text-purple-950 whitespace-nowrap">
                         {service.price}
                     </p>
-                    <button className="border-2 border-purple-800 bg-purple-800 text-gray-50 font-bold py-3 px-8 rounded-full w-full sm:w-auto hover:bg-gray-50 hover:text-purple-800 transition-colors">
+                    <Link href="/kontakt" className="border-2 border-purple-800 bg-purple-800 text-gray-50 font-bold py-3 px-8 rounded-full w-full sm:w-auto hover:bg-gray-50 hover:text-purple-800 transition-colors">
                         Umów się
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

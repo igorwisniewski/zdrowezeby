@@ -6,6 +6,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { BanknotesIcon, UserGroupIcon, HeartIcon } from '@heroicons/react/24/outline';
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -69,9 +70,9 @@ const HowToHelp = () => {
                             ))}
                         </ul>
                         <div className="mt-10">
-                            <button className="bg-purple-800 text-gray border-2 border-purple-800 font-bold py-4 px-10 rounded-full text-lg hover:bg-gray-50 hover:text-purple-800 transition-colors">
+                            <Link href="/kontakt" className="bg-purple-800 text-gray border-2 border-purple-800 font-bold py-4 px-10 rounded-full text-lg hover:bg-gray-50 hover:text-purple-800 transition-colors">
                                 Skontaktuj się z nami
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

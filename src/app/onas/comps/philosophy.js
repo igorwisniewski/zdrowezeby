@@ -25,7 +25,7 @@ const Philosophy = () => {
     }, { scope: container });
 
     return (
-        <section ref={container} className="bg-white py-24 sm:py-32 min-h-screen content-center">
+        <section ref={container} className="bg-white py-24 sm:py-32 min-h-screen content-center" id="next">
             <div className="container mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="section-header max-w-2xl mx-auto text-center">
                     <h2 className="text-4xl font-bold text-gray-900">Sztuka zdrowego uśmiechu</h2>
