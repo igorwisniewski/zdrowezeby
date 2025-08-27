@@ -7,6 +7,7 @@ import Benefits from "@/app/comps/benefits";
 import FinalCTA from "@/app/comps/cta";
 import ScrollProgressBar from "@/app/comps/ScrollBar";
 import Services from "@/app/comps/services";
+import Testimonials from "@/app/comps/Testimonials";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
     <Stats/>
     <Benefits/>
     <Services/>
+    <Testimonials/>
     <FinalCTA/>
   </main>
   <Footer/>

@@ -13,7 +13,7 @@ const servicesData = [
         description: "Zabieg profilaktyczny (scaling + piaskowanie + polerowanie + fluoryzacja), który usuwa kamień, osady i przebarwienia, wygładza powierzchnie zębów i zabezpiecza szkliwo fluoryzacją.",
         features: [
             "Usunięcie kamienia, osadów i przebarwień.",
-            "Wygładzenie powierzchni zębów.",
+            "Instruktaż prawidłowej higieny jamy ustnej.",
             "Zabezpieczenie szkliwa fluoryzacją."
         ],
         price: "350 zł",
@@ -28,7 +28,7 @@ const servicesData = [
             "Bezpieczne dla osób z nadwrażliwością."
         ],
         price: "1 400 zł",
-        imageSrc: "/images/prevdent-min.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
+        imageSrc: "/images/wybielanie-min.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
     },
     {
         title: "Wybielanie BEYOND",
@@ -39,7 +39,7 @@ const servicesData = [
             "Rozjaśnienie uśmiechu o kilka odcieni."
         ],
         price: "od 900 zł",
-        imageSrc: "/images/wybielanie-min.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
+        imageSrc: "/images/prevdent-min.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
     },
     {
         title: "Wybielanie BLANK ONE (bankietowe)",
@@ -83,7 +83,7 @@ const servicesData = [
             "Plan dalszego postępowania."
         ],
         price: "100 zł",
-        imageSrc: "/images/check.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
+        imageSrc: "/images/kids.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
     },
     {
         title: "Zniesienie nadwrażliwości",

@@ -15,20 +15,20 @@ const servicesData = [
     {
         icon: <SparklesIcon className="w-12 h-12 text-purple-800" />,
         title: "Wybielanie Lampą Beyond",
-        price: "1100 zł",
+        price: "od 1100 zł",
         description: "Jednorazowy zabieg, który przywraca zębom naturalną biel, usuwając przebarwienia po kawie, herbacie czy paleniu."
     },
     {
         icon: <ShieldCheckIcon className="w-12 h-12 text-purple-800" />,
-        title: "Fluoryzacja",
-        price: "350 zł",
-        description: "Profesjonalne wzmocnienie szkliwa zębów za pomocą preparatów z fluorem, skutecznie chroniące przed próchnicą."
+        title: "Higienizacja",
+        price: " od 350 zł",
+        description: "Zabieg profilaktyczny, który usuwa kamień, osady i przebarwienia, wygładza powierzchnie zębów i zabezpiecza szkliwo fluoryzacją."
     },
     {
         icon: <PaintBrushIcon className="w-12 h-12 text-purple-800" />,
-        title: "Lakowanie Zębów",
-        price: "100 zł",
-        description: "Zabezpieczenie bruzd i szczelin w zębach trzonowych specjalnym lakiem, co uniemożliwia rozwój bakterii."
+        title: "Przegląd profilaktyczny",
+        price: "od 100 zł",
+        description: "Ocena stanu jamy ustnej – wczesne wykrycie zmian próchnicowych i chorób dziąseł.."
     }
 ];
 
