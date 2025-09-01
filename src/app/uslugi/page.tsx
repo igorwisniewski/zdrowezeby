@@ -50,7 +50,7 @@ const servicesData = [
             "Idealne przed ważnym wydarzeniem."
         ],
         price: "od 350 zł",
-        imageSrc: "/images/blancone.webp" // <<< ZMIEŃ ŚCIEŻKĘ
+        imageSrc: "/images/blancone.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
     },
     {
         title: "ICON – leczenie białych plam",
@@ -72,7 +72,7 @@ const servicesData = [
             "Bezbolesny i szybki zabieg."
         ],
         price: "1 ząb: 150 zł | od 3 zębów: 100 zł/ząb",
-        imageSrc: "/images/lakowanie-min.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
+        imageSrc: "/images/obokkrzesla-min.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
     },
     {
         title: "Przegląd profilaktyczny",
