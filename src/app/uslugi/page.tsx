@@ -13,10 +13,10 @@ const servicesData = [
         description: "Zabieg profilaktyczny (scaling + piaskowanie + polerowanie + fluoryzacja), który usuwa kamień, osady i przebarwienia, wygładza powierzchnie zębów i zabezpiecza szkliwo fluoryzacją.",
         features: [
             "Usunięcie kamienia, osadów i przebarwień.",
-            "Instruktaż prawidłowej higieny jamy ustnej.",
-            "Zabezpieczenie szkliwa fluoryzacją."
+            "Zabezpieczenie szkliwa fluoryzacją.",
+            "Instruktaż prawidłowej higieny jamy ustnej."
         ],
-        price: "350 zł",
+        price: "od 350 zł",
         imageSrc: "/images/higienizacja-min.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
     },
     {
@@ -60,7 +60,7 @@ const servicesData = [
             "Wzmocnienie struktury szkliwa.",
             "Redukcja nadwrażliwości."
         ],
-        price: "1-2 zęby: 350 zł | 6 zębów: 1 200 zł",
+        price: "od 350 zł",
         imageSrc: "/images/icon.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
     },
     {
@@ -71,8 +71,8 @@ const servicesData = [
             "Ochrona powierzchni zęba przed bakteriami.",
             "Bezbolesny i szybki zabieg."
         ],
-        price: "1 ząb: 150 zł | od 3 zębów: 100 zł/ząb",
-        imageSrc: "/images/obokkrzesla-min.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
+        price: "od 150 zł",
+        imageSrc: "/images/kids.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
     },
     {
         title: "Przegląd profilaktyczny",
@@ -83,7 +83,7 @@ const servicesData = [
             "Plan dalszego postępowania."
         ],
         price: "100 zł",
-        imageSrc: "/images/kids.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
+        imageSrc: "/images/obokkrzesla-min.jpg" // <<< ZMIEŃ ŚCIEŻKĘ
     },
     {
         title: "Zniesienie nadwrażliwości",
