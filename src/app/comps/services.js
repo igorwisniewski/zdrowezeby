@@ -15,7 +15,7 @@ const servicesData = [
     {
         icon: <SparklesIcon className="w-12 h-12 text-purple-800" />,
         title: "Wybielanie Lampą Beyond",
-        price: "od 1100 zł",
+        price: "od 900 zł",
         description: "Jednorazowy zabieg, który przywraca zębom naturalną biel, usuwając przebarwienia po kawie, herbacie czy paleniu."
     },
     {
