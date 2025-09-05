@@ -34,7 +34,7 @@ const Hero = () => {
     }, { scope: container });
 
     return (
-        <section ref={container} className=" min-h-screen grid items-center py-0 md:py-20 overflow-hidden">
+        <section ref={container} className=" min-h-screen grid items-center py-0 md:pt-20 overflow-hidden">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="text-center md:text-left">
@@ -60,7 +60,7 @@ const Hero = () => {
                           2. Dajemy mu konkretne wymiary (np. wysokość i szerokość).
                           3. Animujemy ten kontener, a nie sam obrazek.
                         */}
-                        <div className="hero-image-container relative w-full h-[80vh] m-0 md:m-auto rounded-lg overflow-hidden ">
+                        <div className="hero-image-container relative w-full h-[100vh] m-0 md:m-auto rounded-lg overflow-hidden ">
                             <Image
                                 src="/images/landingHeader-min.jpg" // Poprawiona ścieżka bez spacji
                                 alt="Uśmiechnięta kobieta"
