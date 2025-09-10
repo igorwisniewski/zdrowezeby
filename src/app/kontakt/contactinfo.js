@@ -56,7 +56,7 @@ const ContactSection = () => {
                         Wypełnij formularz, a my skontaktujemy się z Tobą tak szybko, jak to możliwe.
                     </p>
                     <form
-                        action="https://formspree.io/f/mandvpwn"
+                        action="https://formspree.io/f/xzzaojge"
                         method="POST"
                         className="bg-white p-8 rounded-2xl shadow-lg border-2 border-purple-200 space-y-6 text-left"
                     >
