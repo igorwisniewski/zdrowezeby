@@ -21,7 +21,7 @@ const ContactForm = () => {
             <div className="form-card bg-white p-8 rounded-2xl shadow-xl max-w-[100%] md:max-w-[80%] m-auto mt-24 md:mt-0">
                 <h2 className="text-3xl font-bold text-purple-900 mb-6">Skontaktuj się z nami</h2>
                 <form
-                    action="https://formspree.io/f/YOUR_UNIQUE_CODE" // <<< WKLEJ TUTAJ SWÓJ LINK Z FORMSPREE
+                    action="https://formspree.io/f/xzzaojge" // <<< WKLEJ TUTAJ SWÓJ LINK Z FORMSPREE
                     method="POST"
                     className="space-y-5"
                 >

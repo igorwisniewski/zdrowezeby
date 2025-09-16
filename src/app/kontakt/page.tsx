@@ -1,7 +1,7 @@
 import NavDefault from "@/app/comps/nav";
 import ContactForm from "@/app/kontakt/form";
 import Footer from "@/app/comps/footer";
-import ContactInfo from "@/app/kontakt/contactinfo";
+import Contactinfo from "@/app/kontakt/contactinfo";
 
 export default function kontakt(){
     return (
@@ -9,7 +9,7 @@ export default function kontakt(){
             <NavDefault/>
         <main>
             <ContactForm/>
-            <ContactInfo/>
+            <Contactinfo/>
         </main>
             <Footer/>
         </>
