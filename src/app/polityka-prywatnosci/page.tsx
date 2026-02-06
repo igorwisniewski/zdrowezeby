@@ -42,7 +42,7 @@ const PrivacyPolicyPage = () => {
                             <dl className="mt-4 space-y-3 text-base text-amber-800">
                                 <div className="grid grid-cols-1 gap-1 sm:grid-cols-4 sm:gap-4">
                                     <dt className="font-medium text-amber-900">Administrator:</dt>
-                                    <dd className="sm:col-span-3">MAGIA ZDROWEGO UŚMIECHU GABINET STOMATOLOGICZNY AGNIESZKA MAJK</dd>
+                                    <dd className="sm:col-span-3">MAGIA ZDROWEGO UŚMIECHU GABINET STOMATOLOGICZNY AGNIESZKA Gąska</dd>
                                 </div>
                                 <div className="grid grid-cols-1 gap-1 sm:grid-cols-4 sm:gap-4">
                                     <dt className="font-medium text-amber-900">Adres:</dt>
@@ -51,8 +51,8 @@ const PrivacyPolicyPage = () => {
                                 <div className="grid grid-cols-1 gap-1 sm:grid-cols-4 sm:gap-4">
                                     <dt className="font-medium text-amber-900">E-mail:</dt>
                                     <dd className="sm:col-span-3">
-                                        <a href="mailto:kontakt@zdrowyusmiech.pl" className="font-medium text-amber-900 underline hover:text-amber-700">
-                                            kontakt@zdrowyusmiech.pl
+                                        <a href="mailto:kontakt@magiazdrowegousmiechu.pl" className="font-medium text-amber-900 underline hover:text-amber-700">
+                                            kontakt@magiazdrowegousmiechu.pl
                                         </a>
                                     </dd>
                                 </div>
@@ -124,7 +124,7 @@ const PrivacyPolicyPage = () => {
                         <p>Zastrzegamy sobie prawo do zmiany niniejszej Polityki. Aktualna wersja będzie zawsze dostępna na tej stronie.</p>
 
                         <h2 id="kontakt">12. Kontakt</h2>
-                        <p>W sprawach związanych z danymi osobowymi prosimy o kontakt pod adresem e-mail: <a href="mailto:kontakt@zdrowyusmiech.pl" className="font-semibold text-sky-600 hover:text-sky-500">kontakt@zdrowyusmiech.pl</a>.</p>
+                        <p>W sprawach związanych z danymi osobowymi prosimy o kontakt pod adresem e-mail: <a href="mailto:kontakt@magiazdrowegousmiechu.pl" className="font-semibold text-sky-600 hover:text-sky-500">kontakt@magiazdrowegousmiechu.pl</a>.</p>
                     </div>
 
                     <div className="mt-16 flex items-center justify-end gap-x-2 border-t border-gray-900/10 pt-8 text-sm text-gray-500">
