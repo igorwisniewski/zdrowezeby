@@ -16,6 +16,9 @@ export default function Footer() {
                         <li><Link href="/onas" className="hover:underline">O nas</Link></li>
                         <li><Link href="/uslugi" className="hover:underline">Usługi</Link></li>
                         <li><Link href="/kontakt" className="hover:underline">Kontakt</Link></li>
+                        <li><Link href="/regulamin" className="text-sm leading-6  hover:text-pruple-500">
+                            Regulamin organizacyjny
+                        </Link></li>
                     </ul>
                 </div>
 
