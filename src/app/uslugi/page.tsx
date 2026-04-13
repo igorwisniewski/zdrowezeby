@@ -124,6 +124,21 @@ export default function ServicesPage() {
             <div className="mb-10">
 
             </div>
+             <div className="bg-purple-50 border-l-4 border-purple-600 p-6 rounded-r-xl shadow-sm mb-12">
+                    <div className="flex items-start">
+                        <div className="flex-shrink-0">
+                            <svg className="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <div className="ml-3">
+                            <h3 className="text-lg font-medium text-purple-800">Wydawanie dokumentacji medycznej</h3>
+                            <div className="mt-2 text-md text-gray-700">
+                                <p>Informujemy, że w naszej klinice po raz pierwszy <strong>nieodpłatnie wydajemy pełną dokumentację medyczną</strong> naszym pacjentom (zgodnie z obowiązującymi przepisami oraz ustawą o prawach pacjenta).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             <Footer />
         </main>
     );

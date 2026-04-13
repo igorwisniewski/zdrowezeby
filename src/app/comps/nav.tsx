@@ -26,6 +26,7 @@ export default function NavDefault() {
                     <ul className="hidden md:flex flex-1 justify-center space-x-8 text-sm font-medium">
                         <li><Link href="/onas" className="transition text-gray-950 hover:text-purple-500 hover:font-bold">O nas</Link></li>
                         <li><Link href="/uslugi" className="transition text-gray-950 hover:text-purple-500 hover:font-bold">Usługi</Link></li>
+                        <li><Link href="/cennik" className="transition text-gray-950 hover:text-purple-500 hover:font-bold">Cennik</Link></li>
                         <li><Link href="/fundacja" className="transition text-gray-950 hover:text-purple-500  hover:font-bold">Fundacja</Link></li>
                         <li><Link href="/kontakt" className="transition text-gray-950 hover:font-bold hover:text-purple-500">Kontakt</Link></li>
                     </ul>
@@ -61,6 +62,8 @@ export default function NavDefault() {
                         nas</Link></li>
                     <li><Link href="/uslugi" onClick={() => setIsOpen(false)}
                               className="hover:text-purple-500 text-gray-950 hover:font-bold">Usługi</Link></li>
+                    <li><Link href="/cennik" onClick={() => setIsOpen(false)}
+                              className="hover:text-purple-500 text-gray-950 hover:font-bold">Cennik</Link></li>
                     <li><Link href="/fundacje" onClick={() => setIsOpen(false)}
                               className="hover:text-purple-500 text-gray-950 hover:font-bold">Fundacje</Link></li>
 
