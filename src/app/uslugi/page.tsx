@@ -134,7 +134,7 @@ export default function ServicesPage() {
                         <div className="ml-3">
                             <h3 className="text-lg font-medium text-purple-800">Wydawanie dokumentacji medycznej</h3>
                             <div className="mt-2 text-md text-gray-700">
-                                <p>Informujemy, że w naszej klinice po raz pierwszy <strong>nieodpłatnie wydajemy pełną dokumentację medyczną</strong> naszym pacjentom (zgodnie z obowiązującymi przepisami oraz ustawą o prawach pacjenta).</p>
+                                <p>Informujemy, że w naszej klinice <strong>nieodpłatnie wydajemy pełną dokumentację medyczną</strong> naszym pacjentom (zgodnie z obowiązującymi przepisami oraz ustawą o prawach pacjenta).</p>
                             </div>
                         </div>
                     </div>
